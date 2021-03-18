@@ -1,0 +1,11 @@
+grizzly (0.1.0-1) UNRELEASED; urgency=medium
+
+  * First packaging
+  * Vendor not-yet-packaged modules:
+  ** github.com/go-clix/cli
+  ** github.com/centrifugal/centrifuge-go
+  ** github.com/google/go-jsonnet
+  * Vendor an older version of github.com/rivo/tview that depends on
+    github.com/gdamore/tcell v1 as opposed to v2
+
+ -- Filippo Giunchedi <filippo@debian.org>  Fri, 12 Mar 2021 10:03:21 +0100
